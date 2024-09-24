@@ -1,0 +1,508 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:x="urn:schemas-microsoft-com:office:excel"
+      xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name=ProgId content=Excel.Sheet>
+    <meta name=Generator content="Microsoft Excel 15">
+    <link rel=File-List href="report.files/filelist.xml">
+    <style id="report_20171120-14_28534_Styles">
+        <!--table
+        {mso-displayed-decimal-separator:"\.";
+            mso-displayed-thousand-separator:"\,";}
+        .xl6328534
+        {padding-top:1px;
+            padding-right:1px;
+            padding-left:1px;
+            mso-ignore:padding;
+            color:black;
+            font-size:10.0pt;
+            font-weight:400;
+            font-style:normal;
+            text-decoration:none;
+            font-family:等线;
+            mso-generic-font-family:auto;
+            mso-font-charset:134;
+            mso-number-format:General;
+            text-align:center;
+            vertical-align:middle;
+            mso-background-source:auto;
+            mso-pattern:auto;
+            white-space:nowrap;}
+        .xl6428534
+        {padding-top:1px;
+            padding-right:1px;
+            padding-left:1px;
+            mso-ignore:padding;
+            color:black;
+            font-size:10.0pt;
+            font-weight:400;
+            font-style:normal;
+            text-decoration:none;
+            font-family:等线;
+            mso-generic-font-family:auto;
+            mso-font-charset:134;
+            mso-number-format:General;
+            text-align:general;
+            vertical-align:middle;
+            mso-background-source:auto;
+            mso-pattern:auto;
+            white-space:nowrap;}
+        .xl6528534
+        {padding-top:1px;
+            padding-right:1px;
+            padding-left:1px;
+            mso-ignore:padding;
+            color:black;
+            font-size:10.0pt;
+            font-weight:700;
+            font-style:normal;
+            text-decoration:none;
+            font-family:等线;
+            mso-generic-font-family:auto;
+            mso-font-charset:134;
+            mso-number-format:General;
+            text-align:center;
+            vertical-align:middle;
+            border:.5pt solid windowtext;
+            background:#BFBFBF;
+            mso-pattern:black none;
+            white-space:nowrap;}
+        .xl6628534
+        {padding-top:1px;
+            padding-right:1px;
+            padding-left:1px;
+            mso-ignore:padding;
+            color:black;
+            font-size:10.0pt;
+            font-weight:700;
+            font-style:normal;
+            text-decoration:none;
+            font-family:等线;
+            mso-generic-font-family:auto;
+            mso-font-charset:134;
+            mso-number-format:General;
+            text-align:center;
+            vertical-align:middle;
+            border-top:.5pt solid windowtext;
+            border-right:.5pt solid windowtext;
+            border-bottom:.5pt solid windowtext;
+            border-left:none;
+            background:#BFBFBF;
+            mso-pattern:black none;
+            white-space:nowrap;}
+        .xl6728534
+        {padding-top:1px;
+            padding-right:1px;
+            padding-left:1px;
+            mso-ignore:padding;
+            color:black;
+            font-size:10.0pt;
+            font-weight:400;
+            font-style:normal;
+            text-decoration:none;
+            font-family:等线;
+            mso-generic-font-family:auto;
+            mso-font-charset:134;
+            mso-number-format:General;
+            text-align:center;
+            vertical-align:middle;
+            border-top:none;
+            border-right:.5pt solid windowtext;
+            border-bottom:.5pt solid windowtext;
+            border-left:.5pt solid windowtext;
+            mso-background-source:auto;
+            mso-pattern:auto;
+            white-space:nowrap;}
+        .xl6828534
+        {padding-top:1px;
+            padding-right:1px;
+            padding-left:1px;
+            mso-ignore:padding;
+            color:black;
+            font-size:10.0pt;
+            font-weight:400;
+            font-style:normal;
+            text-decoration:none;
+            font-family:等线;
+            mso-generic-font-family:auto;
+            mso-font-charset:134;
+            mso-number-format:General;
+            text-align:center;
+            vertical-align:middle;
+            border-top:none;
+            border-right:.5pt solid windowtext;
+            border-bottom:.5pt solid windowtext;
+            border-left:none;
+            mso-background-source:auto;
+            mso-pattern:auto;
+            white-space:nowrap;}
+        .xl6928534
+        {padding-top:1px;
+            padding-right:1px;
+            padding-left:1px;
+            mso-ignore:padding;
+            color:black;
+            font-size:10.0pt;
+            font-weight:400;
+            font-style:normal;
+            text-decoration:none;
+            font-family:等线;
+            mso-generic-font-family:auto;
+            mso-font-charset:134;
+            mso-number-format:"\@";
+            text-align:center;
+            vertical-align:middle;
+            border-top:none;
+            border-right:.5pt solid windowtext;
+            border-bottom:.5pt solid windowtext;
+            border-left:none;
+            mso-background-source:auto;
+            mso-pattern:auto;
+            white-space:nowrap;}
+        .xl7028534
+        {padding-top:1px;
+            padding-right:1px;
+            padding-left:1px;
+            mso-ignore:padding;
+            color:black;
+            font-size:10.0pt;
+            font-weight:400;
+            font-style:normal;
+            text-decoration:none;
+            font-family:等线;
+            mso-generic-font-family:auto;
+            mso-font-charset:134;
+            mso-number-format:"Short Time";
+            text-align:center;
+            vertical-align:middle;
+            border-top:none;
+            border-right:.5pt solid windowtext;
+            border-bottom:.5pt solid windowtext;
+            border-left:none;
+            mso-background-source:auto;
+            mso-pattern:auto;
+            white-space:nowrap;}
+        ruby
+        {ruby-align:left;}
+        rt
+        {color:windowtext;
+            font-size:9.0pt;
+            font-weight:400;
+            font-style:normal;
+            text-decoration:none;
+            font-family:等线;
+            mso-generic-font-family:auto;
+            mso-font-charset:134;
+            mso-char-type:none;}
+        -->
+    </style>
+</head>
+
+<body>
+<div id="report_20171120-14_28534" align=center x:publishsource="Excel">
+
+    <table border=0 cellpadding=0 cellspacing=0 width=1439 style='border-collapse:
+ collapse;table-layout:fixed;width:1081pt'>
+        <col class=xl6328534 width=90 style='mso-width-source:userset;mso-width-alt:
+ 2880;width:68pt'>
+        <col class=xl6328534 width=78 style='mso-width-source:userset;mso-width-alt:
+ 2496;width:59pt'>
+        <col class=xl6328534 width=96 style='mso-width-source:userset;mso-width-alt:
+ 3072;width:72pt'>
+        <col class=xl6328534 width=107 style='mso-width-source:userset;mso-width-alt:
+ 3424;width:80pt'>
+        <col class=xl6328534 width=85 style='mso-width-source:userset;mso-width-alt:
+ 2720;width:64pt'>
+        <col class=xl6328534 width=123 style='mso-width-source:userset;mso-width-alt:
+ 3936;width:92pt'>
+        <col class=xl6328534 width=72 span=3 style='mso-width-source:userset;
+ mso-width-alt:2304;width:54pt'>
+        <col class=xl6328534 width=117 style='mso-width-source:userset;mso-width-alt:
+ 3744;width:88pt'>
+        <col class=xl6328534 width=94 style='mso-width-source:userset;mso-width-alt:
+ 3008;width:71pt'>
+        <col class=xl6328534 width=85 style='mso-width-source:userset;mso-width-alt:
+ 2720;width:64pt'>
+        <col class=xl6328534 width=88 style='mso-width-source:userset;mso-width-alt:
+ 2816;width:66pt'>
+        <col class=xl6328534 width=91 style='mso-width-source:userset;mso-width-alt:
+ 2912;width:68pt'>
+        <col class=xl6328534 width=111 style='mso-width-source:userset;mso-width-alt:
+ 3552;width:83pt'>
+        <col class=xl6328534 width=58 style='mso-width-source:userset;mso-width-alt:
+ 1856;width:44pt'>
+        <tr class=xl6428534 height=17 style='mso-height-source:userset;height:12.75pt'>
+            <td height=17 class=xl6328534 width=90 style='height:12.75pt;width:68pt'></td>
+            <td class=xl6328534 width=78 style='width:59pt'></td>
+            <td class=xl6328534 width=96 style='width:72pt'></td>
+            <td class=xl6328534 width=107 style='width:80pt'></td>
+            <td class=xl6328534 width=85 style='width:64pt'></td>
+            <td class=xl6328534 width=123 style='width:92pt'></td>
+            <td class=xl6328534 width=72 style='width:54pt'></td>
+            <td class=xl6328534 width=72 style='width:54pt'></td>
+            <td class=xl6328534 width=72 style='width:54pt'></td>
+            <td class=xl6328534 width=117 style='width:88pt'></td>
+            <td class=xl6328534 width=94 style='width:71pt'></td>
+            <td class=xl6328534 width=85 style='width:64pt'></td>
+            <td class=xl6328534 width=88 style='width:66pt'></td>
+            <td class=xl6328534 width=91 style='width:68pt'></td>
+            <td class=xl6328534 width=111 style='width:83pt'></td>
+            <td class=xl6328534 width=58 style='width:44pt'></td>
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6528534 style="height:17.25pt">Name</td>
+            <td class=xl6628534>Employee No.</td>
+            <td class=xl6628534>Department</td>
+            <td class=xl6628534>Date</td>
+            <td class=xl6628534>Time</td>
+            <td class=xl6628534>Device</td>
+</tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Joey - Tag Fellow</td>
+            <td class=xl6828534>3001</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>13:56</td>
+            <td class=xl6828534>Cat_Clayton</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Antonio Caal</td>
+            <td class=xl6828534>1112</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>12:10</td>
+            <td class=xl6828534>CX7</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Alex Stockdale</td>
+            <td class=xl6828534>1111</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>11:34</td>
+            <td class=xl6828534>CX7</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Joey - Tag Fellow</td>
+            <td class=xl6828534>3001</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>11:33</td>
+            <td class=xl6828534>CX7</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Alex Montenegro</td>
+            <td class=xl6828534>100107</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>08:58</td>
+            <td class=xl6828534>Dollar_General</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Ryan Buckner</td>
+            <td class=xl6828534>100102</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>07:59</td>
+            <td class=xl6828534>Dollar_General</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Stephen Howard</td>
+            <td class=xl6828534>100068</td>
+            <td class=xl6828534>TJX_Marshalls</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>07:57</td>
+            <td class=xl6828534>TJX_Marshalls</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Nick Burgess</td>
+            <td class=xl6828534>100238</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>07:05</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Mike Sparks</td>
+            <td class=xl6828534>100243</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>07:05</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Alex Pitocz</td>
+            <td class=xl6828534>100244</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>07:05</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Giddian Baker</td>
+            <td class=xl6828534>100249</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>07:05</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Juan Perez</td>
+            <td class=xl6828534>100237</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>07:02</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Jay Cruz</td>
+            <td class=xl6828534>100231</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:56</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Carlos  Rios Avila</td>
+            <td class=xl6828534>100211</td>
+            <td class=xl6828534>Site Management - Bastian_Solutions</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:56</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Romeo Martinez</td>
+            <td class=xl6828534>100232</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:55</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">German Castaneda</td>
+            <td class=xl6828534>100230</td>
+            <td class=xl6828534>Site Management - Bastian_Solutions</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:55</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Alfredo  Dominguez</td>
+            <td class=xl6828534>100217</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:55</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Charlie King</td>
+            <td class=xl6828534>100248</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:55</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Manuel Valerio Oxom Caal</td>
+            <td class=xl6828534>100224</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:52</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Santiago Sacul Caal</td>
+            <td class=xl6828534>100222</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:52</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Marcos  Lopez</td>
+            <td class=xl6828534>100223</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:52</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Juan Carlos Coy Choe</td>
+            <td class=xl6828534>100220</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:52</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Jesus  Ramiles</td>
+            <td class=xl6828534>100215</td>
+            <td class=xl6828534>Site Management - Bastian_Solutions</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:51</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Daniel  Cruz</td>
+            <td class=xl6828534>100226</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:51</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Reynaldo  Vega</td>
+            <td class=xl6828534>100216</td>
+            <td class=xl6828534>Site Management - Bastian_Solutions</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:51</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Emmaluel Vega</td>
+            <td class=xl6828534>100228</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:50</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Silbano  Perez</td>
+            <td class=xl6828534>100213</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:49</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Steve  Wiles</td>
+            <td class=xl6828534>100218</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:47</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Josean Sonehez</td>
+            <td class=xl6828534>100229</td>
+            <td class=xl6828534>Bastian</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:44</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Jose  Flores</td>
+            <td class=xl6828534>100214</td>
+            <td class=xl6828534>Site Management - Bastian_Solutions</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:43</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr><tr class=xl6428534 height=23 style="mso-height-source:userset;height:17.25pt">
+            <td height=23 class=xl6728534 style="height:17.25pt">Jose   Noe Cantu</td>
+            <td class=xl6828534>200212</td>
+            <td class=xl6828534>Site Management - Bastian_Solutions</td>
+            <td class=xl6928534>2024-09-12</td>
+            <td class=xl6928534>06:43</td>
+            <td class=xl6828534>Sanmar_1</td>
+
+        </tr>
