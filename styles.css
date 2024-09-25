@@ -18,7 +18,20 @@ body {
     align-items: center;
 }
 
+h1 {
+    font-size: 48px;
+}
 
+h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(100 21 255);
+    font-size: 16px;
+}
+
+.purple {
+    color: #6415ff;
+}
 /* NAV */
 
 .t__logo {
@@ -187,4 +200,52 @@ body {
     width: 50%;
     display: flex;
     flex-direction: column;
+}
+
+
+/* QUALITY */
+
+.quality__container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.quality__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.quality__text {
+    width: 50%;
+}
+
+.quality__img {
+    padding: 24px;
+    width: 50%;
+}
+
+.screenshot {
+    width: 100%;
+}
+
+/* STEPS */
+
+.steps__row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.steps__right-col {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.step__wrapper {
+    display: flex;
+    flex-direction: row
 }
