@@ -28,7 +28,7 @@
                     <li><a class="nav__link" href="#">Blog</a></li>
                     <li><a class="nav__link" href="#">Pricing</a></li>
                     <li><a class="nav__link" href="#">Contact Us</a></li>
-                    <li><a class="nav__link nav__link--log-in href=" #">Login</a></li>
+                    <li><a class="nav__link--log-in nav__link" href="#">Login</a></li>
 
                 </ul>
                 <a href="#"><button class="btn">Sign Up</button></a>
@@ -42,7 +42,7 @@
             <h1 class="landing__title">
                 Beautiful React Templates <span class="purple">for you.</span>
             </h1>
-            <p>
+            <p id="landing__para">
                 Our templates are easy to setup, understand and customize. Fully modular components with a variety of
                 pages and components.
             </p>
@@ -63,69 +63,129 @@
         </div>
     </div>
 
-    <section class="features__container">
-        <div class="features__row">
-            <h2>FEATURES</h2>
-            <h1 class="features__tag-line">We have Amazing <span class="purple">Service</span></h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit velit maxime perferendis nulla officia
-                architecto et repellat inventore nihil voluptas.
-            </p>
-        </div>
+    <section id="features">
+        <div class="container">
+            <div class="row">
+                <h2 class="features__head">Features</h2>
+                <h1 class="features__title">We have Amazing <span class="purple">Service.</span></h1>
+                <p class="features__para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere pariatur
+                    dignissimos repudiandae harum praesentium maiores! Minima fugiat natus consequatur qui.</p>
+                <div class="feature__wrapper">
 
-        <div class="features__list">
-            <div class="feature">
-                <div class="img__container">
-                    <img src="./assets/shield.svg" class="feature__img" alt="">
-                </div>
-                <div class="text__container">
-                    <div class="feature_title">Secure</div>
-                    <p class="feature__text">We strictly only deal with vendors that provide top notch security.</p>
-                </div>
-            </div>
-            <div class="feature">
-                <div class="img__container">
-                    <img src="./assets/shield.svg" class="feature__img" alt="">
-                </div>
-                <div class="text__container">
-                    <div class="feature_title">Secure</div>
-                    <p class="feature__text">We strictly only deal with vendors that provide top notch security.</p>
-                </div>
-            </div>
-            <div class="feature">
-                <div class="img__container">
-                    <img src="./assets/shield.svg" class="feature__img" alt="">
-                </div>
-                <div class="text__container">
-                    <div class="feature_title">Secure</div>
-                    <p class="feature__text">We strictly only deal with vendors that provide top notch security.</p>
-                </div>
-            </div>
-            <div class="feature">
-                <div class="img__container">
-                    <img src="./assets/shield.svg" class="feature__img" alt="">
-                </div>
-                <div class="text__container">
-                    <div class="feature_title">Secure</div>
-                    <p class="feature__text">We strictly only deal with vendors that provide top notch security.</p>
-                </div>
-            </div>
-            <div class="feature">
-                <div class="img__container">
-                    <img src="./assets/shield.svg" class="feature__img" alt="">
-                </div>
-                <div class="text__container">
-                    <div class="feature_title">Secure</div>
-                    <p class="feature__text">We strictly only deal with vendors that provide top notch security.</p>
-                </div>
-            </div>
-            <div class="feature">
-                <div class="img__container">
-                    <img src="./assets/shield.svg" class="feature__img" alt="">
-                </div>
-                <div class="text__container">
-                    <div class="feature_title">Secure</div>
-                    <p class="feature__text">We strictly only deal with vendors that provide top notch security.</p>
+                    <div class="feature">
+                        <div class="feature__sub--wrapper">
+
+                            <div class="feature__circle">
+
+                                <img src="./assets/shield.svg" alt="" class="feature__img">
+                            </div>
+                            <div class="feature__sub-class">
+
+                                <h3 class="feature__subtitle">
+                                    Secure
+                                </h3>
+                                <p class="feature__para">
+                                    We Strictly only deal with vendors that provide top notch security.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="feature">
+                        <div class="feature__sub--wrapper">
+
+                            <div class="feature__circle">
+
+                                <img src="./assets/speaker.svg" alt="" class="feature__img">
+                            </div>
+                            <div class="feature__sub-class">
+
+                                <h3 class="feature__subtitle">
+                                    24/7 Support
+                                </h3>
+                                <p class="feature__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, doloribus!</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="feature">
+                        <div class="feature__sub--wrapper">
+
+                            <div class="feature__circle">
+
+                                <img src="./assets/eq.svg" alt="" class="feature__img">
+                            </div>
+                            <div class="feature__sub-class">
+
+                                <h3 class="feature__subtitle">
+                                    Customizable
+                                </h3>
+                                <p class="feature__para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, doloribus!
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="feature">
+                        <div class="feature__sub--wrapper">
+
+                            <div class="feature__circle">
+
+                                <img src="./assets/reliable.svg" alt="" class="feature__img">
+                            </div>
+                            <div class="feature__sub-class">
+
+                                <h3 class="feature__subtitle">
+                                    Reliable
+                                </h3>
+                                <p class="feature__para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, doloribus!
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="feature">
+                        <div class="feature__sub--wrapper">
+
+                            <div class="feature__circle">
+
+                                <img src="./assets/fast.svg" alt="" class="feature__img">
+                            </div>
+                            <div class="feature__sub-class">
+
+                                <h3 class="feature__subtitle">
+                                    Fast
+                                </h3>
+                                <p class="feature__para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, doloribus!
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="feature">
+                        <div class="feature__sub--wrapper">
+
+                            <div class="feature__circle">
+
+                                <img src="./assets/easy.svg" alt="" class="feature__img">
+                            </div>
+                            <div class="feature__sub-class">
+
+                                <h3 class="feature__subtitle">
+                                    Easy
+                                </h3>
+                                <p class="feature__para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, doloribus!
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -283,13 +343,14 @@
     <section class="test__container">
         <div class="test__row">
             <!-- Okay.. there's two testimonials on a slider -->
-             <div class="test__img">
+            <div class="test__img">
                 <img src="assets/love__illustration.svg" alt="" class="love">
-             </div>
-             <div class="test__wrapper">
+            </div>
+            <div class="test__wrapper">
                 <h2>Testimonials</h2>
                 <h1>Our Clients <span class="purple">Love Us.</span></h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit sit sapiente fuga dolorem corporis repudiandae minima porro tempore totam laudantium sed aperiam, excepturi eaque hic.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit sit sapiente fuga dolorem
+                    corporis repudiandae minima porro tempore totam laudantium sed aperiam, excepturi eaque hic.</p>
                 <div class="test__wrapper--slider">
                     <div class="test__wrapper--slider">
                         <ul class="rating__stars">
@@ -301,7 +362,11 @@
 
                         </ul>
                         <h3>Amazing User Experience</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellendus quos illum nihil. Provident dolorum reiciendis, officiis incidunt, non inventore odio atque quos beatae autem ex qui adipisci nemo sunt molestias deleniti velit dicta. Dolorem error id, enim assumenda sunt aspernatur commodi perferendis eum, iusto laudantium, et eligendi nostrum reprehenderit?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellendus quos illum
+                            nihil. Provident dolorum reiciendis, officiis incidunt, non inventore odio atque quos beatae
+                            autem ex qui adipisci nemo sunt molestias deleniti velit dicta. Dolorem error id, enim
+                            assumenda sunt aspernatur commodi perferendis eum, iusto laudantium, et eligendi nostrum
+                            reprehenderit?</p>
                         <div class="steps__person--wrapper">
                             <img src="./assets/Charlotte__hale.avif" class="test__img" alt="">
                             <div class="steps__person--title">
@@ -331,7 +396,11 @@
 
                         </ul>
                         <h3>Love the Developer Experience and Design Principles!</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellendus quos illum nihil. Provident dolorum reiciendis, officiis incidunt, non inventore odio atque quos beatae autem ex qui adipisci nemo sunt molestias deleniti velit dicta. Dolorem error id, enim assumenda sunt aspernatur commodi perferendis eum, iusto laudantium, et eligendi nostrum reprehenderit?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellendus quos illum
+                            nihil. Provident dolorum reiciendis, officiis incidunt, non inventore odio atque quos beatae
+                            autem ex qui adipisci nemo sunt molestias deleniti velit dicta. Dolorem error id, enim
+                            assumenda sunt aspernatur commodi perferendis eum, iusto laudantium, et eligendi nostrum
+                            reprehenderit?</p>
                         <div class="steps__person--wrapper">
                             <img src="./assets/Adam__cuppy.avif" class="test__img" alt="">
                             <div class="steps__person--title">
@@ -352,7 +421,7 @@
 
                     </div>
                 </div>
-             </div>
+            </div>
         </div>
     </section>
 
