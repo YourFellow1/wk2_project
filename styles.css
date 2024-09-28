@@ -62,9 +62,6 @@ h2 {
     align-items: center;
 }
 
-.nav__title {
-
-}
 
 .nav__links--wrapper {
     display: flex;
@@ -298,3 +295,67 @@ h2 {
 .easel {
     width: 100%;
 }
+
+
+/* PRICES */
+
+.prices__row {
+    display: flex;
+    flex-direction: row;
+}
+
+/* TESTIMONIALS */
+
+.rating__stars {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.test__img {
+    width: 80px;
+    border-radius: 9999px;
+}
+
+.arrow__btn {
+    border-radius: 9999px;
+    background-color: #EDf2f7;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    color: #6415ff;
+    border: none;
+}
+
+/* FAQ */
+
+.faq__container {
+    background-color: #6415ff;
+}
+
+/* LINKS */
+
+.link__container {
+    background-color: blue;
+}
+
+.link__row {
+    background-color: blue;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.link__list {
+    width: calc(100% / 5);
+}
+
+.link__links {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 5);
+}
+
