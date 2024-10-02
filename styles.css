@@ -34,6 +34,7 @@ h2 {
 h3 {
     font-size: 20px;
     color:#243e63;
+    line-height: 1.625;
 }
 
 h4 {
@@ -367,10 +368,10 @@ input {
 
 
 .steps__col-two--wrapper {
-    margin-left: 64px;
+    padding: 32px 0px;
+    padding-left: 64px;
     display: flex;
     flex-direction: column;
-    padding: 32px 0px;
     justify-content: start;
 }
 
@@ -412,7 +413,7 @@ input {
 
 .values__text--wrapper {
     width: 50%;
-    margin-right: 96px;
+    padding-right: 96px;
     
 }
 
@@ -516,7 +517,77 @@ input {
 .prices__row {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
 }
+
+.prices__top {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prices__head {
+    margin-bottom: 16px;
+}
+
+.prices__desc {
+    margin-top: 16px;
+    max-width: 576px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border-color: rgb(226, 232, 240);
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    width: 100%;
+    max-width: 384px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    text-align: center;
+    margin-top: 64px;
+    margin-right: 32px;
+}
+
+.top__decorative--one {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.plan__header {
+    padding: 32px 0px;
+    width: 100%;
+
+}
+
+.plan__middle {
+    padding: 32px;
+    border-style: solid;
+    border-color: rgb(226, 232, 240);
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px -32px;
+}
+
+
 
 /* TESTIMONIALS */
 
