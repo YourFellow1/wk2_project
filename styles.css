@@ -566,6 +566,7 @@ section {
     width: 100%;
     max-width: 384px;
     margin-right: 32px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -573,9 +574,11 @@ section {
     padding: 8px 32px 0px;
     border-style: solid;
     border-color: rgb(226, 232, 240);
-    border-width: 1px;
+    border-width: 0px;
     flex-wrap: wrap;
+    box-shadow: 0px 2px 3px 0 rgba(0, 0, 0, 0.1);
 }
+
 
 .plan__decoration {
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
@@ -598,9 +601,7 @@ section {
 
 
 .plan__header--title {
-
     font-size: 20px;
-    
 }
 
 .plan__header--price {
@@ -650,6 +651,22 @@ section {
     color: #F7Fafc;
     width: 100%;
     letter-spacing: 0.05em;
+}
+
+/* BLUE PLAN */
+
+.plan--blue {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    color: rgb(247 250 252);
+}
+
+.plan__decoration--middle {
+    background: none;
+}
+
+.plan--blue * {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(226,232,240, .5);
 }
 
 /* TESTIMONIALS */
