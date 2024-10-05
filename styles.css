@@ -33,12 +33,12 @@ h2 {
 
 h3 {
     font-size: 20px;
-    color:#243e63;
+    color: #243e63;
     line-height: 1.625;
 }
 
 h4 {
-    font-size:36px;
+    font-size: 36px;
     color: #CBd5e0;
 }
 
@@ -56,9 +56,18 @@ input {
     line-height: 1.5em;
 }
 
+section {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .purple {
     color: #6415ff;
 }
+
 /* NAV */
 
 
@@ -67,7 +76,7 @@ input {
     margin-top: 24px;
     width: 100%;
     max-width: 1280px;
-    
+
 }
 
 .nav__row {
@@ -106,7 +115,7 @@ input {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+
 }
 
 
@@ -171,12 +180,12 @@ input {
     border-style: solid;
     display: flex;
     justify-content: space-between;
- 
+
     width: 100%;
     border-radius: 9999px;
     border-color: rgb(226, 232, 240);
     padding: 20px 192px 20px 32px;
-    
+
 }
 
 .get--started {
@@ -273,7 +282,7 @@ input {
 
 .feature__sub--wrapper {
     display: flex;
-    
+
     margin: 0px 16px;
     padding: 32px 8px;
 }
@@ -309,9 +318,10 @@ input {
 }
 
 .quality__col-one--wrapper--wrapper {
-    
+
     width: calc(50%-64px);
 }
+
 .quality__col-one--wrapper {
     margin: 32px 0px;
     text-align: left;
@@ -360,6 +370,7 @@ input {
     align-content: center;
     justify-content: center;
 }
+
 .steps__img {
     width: 100%;
     height: auto;
@@ -404,7 +415,7 @@ input {
 }
 
 .values__row {
-    
+
     padding: 96px 0px;
     display: flex;
     flex-direction: row;
@@ -414,7 +425,7 @@ input {
 .values__text--wrapper {
     width: 50%;
     padding-right: 96px;
-    
+
 }
 
 .values__text--col {
@@ -473,7 +484,7 @@ input {
 }
 
 .circle__green {
-    
+
     background-color: #9ae6b4;
 }
 
@@ -497,7 +508,7 @@ input {
 }
 
 .values__btn {
-    margin-top:48px;
+    margin-top: 48px;
 }
 
 .values__img--wrapper {
@@ -512,51 +523,62 @@ input {
 }
 
 
-/* PRICES */
+/* PLANS */
 
-.prices__row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.plans__container {
     width: 100%;
-    flex-wrap: wrap;
+    max-width: 1280px;
 }
 
-.prices__top {
-    margin-top: 40px;
+.plans__row {
     display: flex;
-    align-items: center;
     flex-direction: column;
 }
 
-.prices__head {
+.plans__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.plans__header--header {
     margin-bottom: 16px;
 }
 
-.prices__desc {
+.plans__para {
+    color: #7C8BA1;
     margin-top: 16px;
+    width: 100%;
     max-width: 576px;
 }
 
-.plan {
+.plans__plans {
     display: flex;
-    flex-direction: column;
-    border-radius: 8px;
-    border-color: rgb(226, 232, 240);
-    border-style: solid;
-    border-width: 1px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.plan {
     position: relative;
     width: 100%;
     max-width: 384px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 8px;
+    margin-right: 32px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin-top: 64px;
-    margin-right: 32px;
+    padding: 8px 32px 0px;
+    border-style: solid;
+    border-color: rgb(226, 232, 240);
+    border-width: 1px;
+    flex-wrap: wrap;
 }
 
-.top__decorative--one {
+.plan__decoration {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
     position: absolute;
     left: 0px;
     right: 0px;
@@ -564,30 +586,71 @@ input {
     height: 8px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
 .plan__header {
-    padding: 32px 0px;
     width: 100%;
-
+    padding: 32px 0px;
+    font-weight: 700;
+    line-height: 1.625;
+    text-transform: uppercase;
 }
 
-.plan__middle {
+
+.plan__header--title {
+
+    font-size: 20px;
+    
+}
+
+.plan__header--price {
+    font-size: 48px;
+    margin: 4px 0px;
+    
+}
+
+.plan__header--duration {
+    color: rgb(160, 174, 192);
+    letter-spacing: 1.6px;
+}
+
+.plan__features {
     padding: 32px;
-    border-style: solid;
-    border-color: rgb(226, 232, 240);
+    margin: 0px -32px;
     border-top-width: 2px;
     border-bottom-width: 2px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0px -32px;
+    border-style: solid;
+    border-color: rgb(226, 232, 240);
+    border-width: 0px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
 }
 
+.plan__feature--main {
+    font-size: 20px;
+    font-weight: 700;
+}
 
+.plan__feature {
+    margin-top: 20px;
+}
+
+.plan__button--wrapper {
+    padding: 32px 64px;
+}
+
+.plan__button {
+    border-radius: 9999px;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    text-transform: uppercase;
+    padding: 16px 32px;
+    border-style: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #F7Fafc;
+    width: 100%;
+    letter-spacing: 0.05em;
+}
 
 /* TESTIMONIALS */
 
@@ -643,4 +706,3 @@ input {
     flex-direction: column;
     width: calc(100% / 5);
 }
-
