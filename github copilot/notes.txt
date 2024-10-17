@@ -1,0 +1,4 @@
+Part 1 = backend.
+
+Python backend, using FastAPI or API app.
+part 2 is a javascript front end for it.
